@@ -1,0 +1,27 @@
+{
+  "name": "fluent-emitter",
+  "version": "1.0.0",
+  "description": "Simple emitter with fluent api",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dpraimeyuu/fluent-emitter"
+  },
+  "keywords": [
+    "emitter",
+    "fluent",
+    "api",
+    "events",
+    "emit",
+    "on"
+  ],
+  "author": "Damian Płaza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpraimeyuu/fluent-emitter/issues"
+  },
+  "homepage": "https://github.com/dpraimeyuu/fluent-emitter"
+}
