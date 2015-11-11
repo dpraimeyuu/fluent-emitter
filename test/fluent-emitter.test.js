@@ -1,5 +1,5 @@
 var expect = require('expect.js');
-var fluentEmitter = require('../fluent-emitter-factory.js');
+var fluentEmitter = require('../src/fluent-emitter-factory.js');
 var fluentEmitterInstanceOne, fluentEmitterInstanceTwo;
 
 beforeEach(function () {
@@ -13,15 +13,15 @@ describe('fluent emitter', function () {
   });
 
   it('should have "on" property', function () {
-    expect(fluentEmitterInstanceOne).to.property('on');
+    expect(fluentEmitterInstanceOne).to.have.property('on');
   });
 
   it('should have "emit" property', function () {
-    expect(fluentEmitterInstanceOne).to.property('emit');
+    expect(fluentEmitterInstanceOne).to.have.property('emit');
   });
 
   it('should have "clearListeners" property', function () {
-    expect(fluentEmitterInstanceOne).to.property('clearListeners');
+    expect(fluentEmitterInstanceOne).to.have.property('clearListeners');
   });
   
   it('should throw exception when trying to listen on undefined event', function(){
