@@ -89,7 +89,7 @@ Method used for clearing all listeners for specific event or for all events.
 
 Let's say we want to clear all listeners for eventOne:
 ```js
-trainigEmitter.clearListeners.for.eventOne();
+trainingEmitter.clearListeners.for.eventOne();
 ```
 
 If it's not sufficient, then all listeners can be cleared:
